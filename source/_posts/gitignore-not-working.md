@@ -6,13 +6,13 @@ tags:
     - git
 ---
 
-# .gitignore not working
 
 ## 현상
 .gitignore 파일이 제대로 동작되지 않아, 무시되어야 할 파일과 폴더들이 커밋에 포함된다.
 
 #### 시도
 > .gitignore 파일을 나중에 적용하는 경우, 주로 사용되는 방법
+
 ```
 $ git rm -r --cached .
 $ git add .
@@ -28,6 +28,7 @@ file and the HEAD:
     .idea/workspace.xml
 (use -f to force removal)
 ```
+
 
 ## 해결 방법
 (!주의) 적용기전, 커밋부터 하자.

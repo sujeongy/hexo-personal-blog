@@ -1247,4 +1247,8 @@ pre .javascript .function {
   font-variant: petite-caps;
   font-weight: bold;
 }
+.post-content figure.highlight {
+  margin-left: 2em;
+  margin-right: 2em;
+}
 /* // custom */
