@@ -4,7 +4,7 @@
 
 # Site
 title: Krystal's Dev Blog
-subtitle: sometimes code， sometimes write
+subtitle: Go with the flow
 author: Krystal Yoo
 language: kr
 timezone:
@@ -19,7 +19,7 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Dev Blog
+SEOTitle: Krystal's Dev Blog
 email: yoosj0703@gmail,com
 description: 유씨의 개발 블로그 | Krystal's Dev Blog
 keyword: javascript
