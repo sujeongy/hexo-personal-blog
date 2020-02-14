@@ -1,5 +1,5 @@
 
-<div class="post-content <% if(config.post_style && !config.post_style.indent) {%>no-indent<% } %>">
+<div class="post-content <% if(config.post_style && !config.post_style.indent) {%>no-indent<% } %> about-custom">
     <%-page.content%>
     <% if(config.donate){%>
         <%- partial('_partial/donate', null, {cache: false}) %>

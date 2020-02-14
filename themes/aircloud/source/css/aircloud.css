@@ -1,6 +1,6 @@
 /*varibles*/
 * {
-  font-family: "italic", Helvetica, Arial, "Heiti SC", "Microsoft YaHei";
+  font-family: 'Noto Sans KR', "italic", Helvetica, Arial, "Heiti SC", "Microsoft YaHei";
 }
 body,
 html {
@@ -624,8 +624,9 @@ body {
   border-collapse: collapse;
 }
 .post-content blockquote {
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
+  border-left: 3px solid #cccccc;
+  /*border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;*/
   margin-left: 2em;
   margin-right: 2em;
   padding-left: 0;
@@ -1235,3 +1236,15 @@ pre .javascript .function {
   text-indent: 0;
 }
 /*# sourceMappingURL=aircloud.css.map */
+
+
+/* custom */
+.about-custom > blockquote {
+  border: none;
+  border-bottom: 3px solid #cccccc;
+  border-top: 3px solid #cccccc;
+  text-align: center;
+  font-variant: petite-caps;
+  font-weight: bold;
+}
+/* // custom */
