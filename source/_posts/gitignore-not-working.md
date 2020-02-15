@@ -16,7 +16,7 @@ tags:
 ```
 $ git rm -r --cached .
 $ git add .
-$ git commit -m "fixed .gitignore"
+$ git commit -m "apply .gitignore"
 $ git push
 ```
 아래와 같은 이슈 발생
@@ -33,13 +33,19 @@ file and the HEAD:
 ## 해결 방법
 > (!주의) 커밋되지 않은 변경사항 다 날라갈수 있다.
 >
->현재 어떠한 수정사항이 없는 경우에서 진행되면 좋다.
+> 현재 어떠한 수정사항이 없는 경우에서 진행되면 좋다.
 >
-> 그렇지 못하면, ignore 될 파일을 부분적으로 제외시키고 커밋된 상태에서 진행하자. 
+> 또는 ignore 될 파일들을 부분적으로 제외시키고 커밋된 상태에서 진행하자. 
 
 
 ```
-git reset HEAD --hard
+$ git reset HEAD --hard // solved
+
+// it would work!
+$ git rm -r --cached . 
+$ git add .
+$ git commit -m "fixed .gitignore"
+$ git push
 ```
 
 ## 참조
