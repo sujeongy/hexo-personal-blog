@@ -1251,12 +1251,17 @@ pre .javascript .function {
   margin-left: 2em;
   margin-right: 2em;
 }
-
 .post-content p {
   line-height: 1.8;
 }
-
 .post-content:not(.about-custom) blockquote p {
   margin: 0;
+}
+.index-about {
+  width: 1024px;
+  margin: 45px auto 40px;
+  padding-left: 240px;
+  box-sizing: border-box;
+  text-align: left;
 }
 /* // custom */
