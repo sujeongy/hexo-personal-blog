@@ -1252,7 +1252,13 @@ pre .javascript .function {
   margin-right: 2em;
 }
 .post-content p {
+  padding-left: 4em;
   line-height: 1.8;
+  text-indent: 0;
+}
+.post-content blockquote p {
+  padding-left: 0;
+  text-indent: 2em;
 }
 .post-content:not(.about-custom) blockquote p {
   margin: 0;
