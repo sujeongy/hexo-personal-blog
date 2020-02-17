@@ -1,1 +1,5 @@
 __: aircloud
+
+plugins:
+  google_analytics: UA-158673042-1
+  localhost_ignored: true
