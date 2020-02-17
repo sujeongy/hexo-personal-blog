@@ -36,6 +36,7 @@ function domainName(url){
 
 ### # Others
 > 정규식으로 풀이
+
 ```javascript
 function domainName(url){
   return url.match(/(?:http(?:s)?:\/\/)?(?:w{3}\.)?([^\.]+)/i)[1];
@@ -43,6 +44,7 @@ function domainName(url){
 ```
 
 > replace() 메소드 사용
+
 ```javascript
 function domainName(url){
   url = url.replace("https://", '');
@@ -60,5 +62,5 @@ function domainName(url){
  
 
 ## references
-- (MDN - String.prototype.replace())[https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/replace]
-- (정규식(Regular Expressions))[https://beomy.tistory.com/21]
+- [MDN - String.prototype.replace()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+- [정규식(Regular Expressions)](https://beomy.tistory.com/21)
