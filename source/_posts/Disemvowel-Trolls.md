@@ -46,8 +46,8 @@ function disemvowel(str) {
 }
 ```
 - [xyz] 문자셋(Character set) 매칭되는 것
-- [^xyz] 음의 문자셋(negate) or 보수 문자셋(complemented) []안에 있지 않은 문자열과 매칭
-ig 대소문자 둘다
+- [^xyz] 음의 문자셋(negated) or 보수 문자셋(complemented) []안에 있지 않은 문자열과 매칭
+- ig 대소문자 둘다
 
 
 ### # thoughts
