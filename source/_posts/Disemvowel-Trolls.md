@@ -1,6 +1,6 @@
 ---
 title: Disemvowel Trolls
-date: 
+date: 2020-02-18 15:01:15
 tags:
     - codewars
 ---
@@ -45,8 +45,8 @@ function disemvowel(str) {
   return str.replace(/[aeiou]/gi, '');
 }
 ```
-[xyz] 문자셋(Character set) 매칭되는 것
-[^xyz] 음의 문자셋(negate) or 보수 문자셋(complemented) []안에 있지 않은 문자열과 매칭
+- [xyz] 문자셋(Character set) 매칭되는 것
+- [^xyz] 음의 문자셋(negate) or 보수 문자셋(complemented) []안에 있지 않은 문자열과 매칭
 ig 대소문자 둘다
 
 
