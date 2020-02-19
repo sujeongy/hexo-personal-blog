@@ -1,5 +1,5 @@
 ---
-title: Extract the domain name from a URL
+title: 'Extract the domain name from a URL'
 date: 2020-02-17 11:25:47
 tags:
     - codewars
