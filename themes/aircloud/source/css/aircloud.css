@@ -1264,10 +1264,10 @@ pre .javascript .function {
   margin: 0;
 }
 .index-about {
-  width: 1024px;
-  margin: 45px auto 40px;
-  padding-left: 240px;
-  box-sizing: border-box;
-  text-align: left;
+  /*width: 1024px;*/
+  /*margin: 45px auto 40px;*/
+  /*padding-left: 240px;*/
+  /*box-sizing: border-box;*/
+  /*text-align: center;*/
 }
 /* // custom */
