@@ -29,39 +29,35 @@ Note: all the hashes are pre-validated and will only contain A-Z, a-z, '-' and '
 
 ### # My Solutions
 ```javascript
-function deleteNth(arr,n){
-  let result = [];
-  let newArr = arr.map(item => {
-    let num = 0;
-    result.forEach(str => {
-      if (item === str) {
-        num++;
-      }
-    })
-    if(num === n) return;
-    result.push(item);
-  });
+function list(names){
+  let tempNames = names; //arr
+  let nameArr = tempNames.map(x => x.name);
+  let result;
+  
+  tempName = nameArr.join(', ');
+  let lastName = nameArr[nameArr.length-1];
+  result = tempName.replace(`, ${lastName}`, ` & ${lastName}`);
+  
   return result;
 }
 ```
 
 ### # Others
-> 메모이제이션
+> 마지막 요소만 따로 떼어 ' & ' 붙이기 
 
 ```javascript
-function deleteNth(arr,x) {
-  var cache = {};
-  return arr.filter(function(n) {
-    cache[n] = (cache[n]||0) + 1;
-    return cache[n] <= x;
-  });
+function list(names) {
+  var xs = names.map(p => p.name)
+  var x = xs.pop()
+  return xs.length ? xs.join(", ") + " & " + x : x || ""
 }
 ```
 
-### # thoughts
-- 메모이제이션으로 풀면 되겠거니 했는데, 오랜만이라 제시간내엔 구현하지 못했다.
-- 현재 내가 구현한 코드는 효용성 최악이다. 각 배열의 요소마다 해당 요소를 계산해주고 있다.
-그러므로, 객체를 만들어 각 {'아이템이름':'갯수', .., ..} 구현하는 게 좋다. Best Practices 에서 이미 잘 보여주고 있다.
+> 정규식
 
-## references
-- [메모이제이션(Memoization) 패턴](https://kool-jay.tistory.com/19)
+```javascript
+var list = (names) =>  names.map(x => x.name).join(', ').replace(/(.*),(.*)$/, "$1 &$2")
+```
+
+### # thoughts
+- 여전히 정규식은 어렵게 다가온다.
