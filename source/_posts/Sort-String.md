@@ -1,8 +1,8 @@
 ---
-title: 문자배열 재정렬하기
+title: Sorting arrays of String
 date: 2020-02-22 22:19:15
 tags:
-    - 알고리즘
+    - algorithm
 ---
 
 ## 문자배열 재정렬하기 
