@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Krystal's Dev Blog
+title: K's Blog
 subtitle: Go with the flow
 author: Sujeong
 language: kr
@@ -19,7 +19,7 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Krystal's Dev Blog
+SEOTitle: K's Dev Blog
 email: yoosj0703@gmail,com
 description: 유씨의 개발 블로그 | Krystal's Dev Blog
 keyword: javascript
