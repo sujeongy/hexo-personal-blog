@@ -19,26 +19,18 @@ tags:
 // }
 
 function strSort(arr) {
-  let result = [];
-    let mappedObj = arr.map((el, i) => {
-      return { idx: i , val: el };
-    });
-
-    mappedObj.sort((a, b) => {
-      let newA = a.val.toLowerCase(),
-          newB = b.val.toLowerCase();
+    arr.sort((a, b) => {
+      let newA = a.toLowerCase(),
+          newB = b.toLowerCase();
       if(newA > newB) return 1;   
       if(newA < newB) return -1;   
       if(newA === newB) return 0;   
     });
 
-   result= mappedObj.map(item => {
-      return item.val;
-    });
-  
-   return result;
+   return arr;
 }
 ```
+- 반환값은 복사된 값이 아닌 원래 배열!
 
 ### # Examples
 ```javascript
