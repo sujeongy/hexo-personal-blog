@@ -75,4 +75,4 @@ function sortArray(array) {
 ### # thoughts
  - 짝수값을 [] { index: idx, val: value }, .. ] 객체 배열로 만들 필요가 없었다.
  - 배열로만으로 구현 가능
- - odd 배열을 뽑아+정렬한 샅애에서 map을 돌리는 첫번재 풀이.. 멋지다.
+ - odd 배열을 뽑아(filter)+재정렬(sort)한 값을 map에서 사용하는 첫번재 풀이.. 멋지다.
