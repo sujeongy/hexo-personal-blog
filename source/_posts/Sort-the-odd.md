@@ -75,5 +75,5 @@ function sortArray(array) {
 ### # thoughts
  - 짝수값을 [] { index: idx, val: value }, .. ] 객체 배열로 만들 필요가 없었다.
  - 배열로만으로 구현 가능
- - odd 배열을 뽑아+정렬한 샅애에서 map을 돌리는 첫번재 풀이.. 멋지다.
+ - odd 배열을 뽑아+정렬 한값을 map내부에서 ㅁ돌리는 첫번재 풀이.. 멋지다.
  - shift() 보다 pop() 이 성능상 더 빠르다고 한다. sort 시, b - a 으로 변경하는게 좋을듯
