@@ -51,8 +51,8 @@ Math.ceil  = number => Number.isInteger(number) ? number : Math.floor( number + 
 
 
 ### # thoughts
-- 간단한 건 직접 구현해보 것도 좋은 공부
-- MDN 폴리필도 꼭 한번씩 확인읽어 보는 습관 갖기 
+- 간단한 건 직접 구현해보는 것도 좋은 공부
+- MDN 폴리필도 꼭 한번씩 확인, 읽어보는 습관 갖기 
 
 
 ## references
