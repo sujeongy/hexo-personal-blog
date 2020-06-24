@@ -5,3 +5,10 @@ Krystal's Dev note
 2. write n write
 3. try n try
 4. REPEAT THE ABOVE STEPS
+
+
+##usage
+hexo new "파일이름"
+
+hexo clean
+hexo deploy
