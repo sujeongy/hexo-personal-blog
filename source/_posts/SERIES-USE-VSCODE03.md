@@ -9,7 +9,7 @@ tags:
 ## VSCODE 적응기03
 > Digging into Debugging
 
-[지난 번에 올렸던 글](source\_posts\SERIES-USE-VSCODE02.md)에서 참조했던 영상의 최신글을 찾았다.
+[지난 번에 올렸던 글](https://krystaly.github.io/2020/06/26/SERIES-USE-VSCODE02) 에서 참조했던 영상의 최신글을 찾았다.
 (본인 PC에선 영상 재생이 매끄럽지 않아, 제공되는 자료로 공부했다.😅😅)
 - [크롬 개발자 도구를 이용한 자바스크립트 디버깅](https://subicura.com/2018/02/14/javascript-debugging.html)
 
@@ -24,6 +24,7 @@ tags:
  
 덤으로,
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?hl=ko)
+
 
  이 또한 예전에 봤지만, 정말 필요한 것만 쓱- 봤던거 같다.
 다음달 페이지 최적화 작업에 많은 도움이 될 거 같아서, 더 익혀볼 예정이다.
