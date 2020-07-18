@@ -1,6 +1,6 @@
 ---
 title: 'SERIES:USE VSCODE FIN'
-date: 2020-07-08 23:28:14
+date: 2020-07-18 19:37:14
 tags:
     - tool
     - vscode
@@ -30,22 +30,22 @@ option[value="$0"]{$0개 보기}*10
 ---
 (W)ebstorm → (VSC)ode로 이동중
 
-1. toggle tool bar: ctrl + B
-2. Terminal:<br />
+## # toggle tool bar: ctrl + B
+## # Terminal:<br />
 alt + t : 상태바 Terminal 오픈<br />
 ctrl + shift + `: 폴더별 터미널 선택 -> 오픈<br />
 ctrl + shift + 5 : split
-3. 단어 선택<br />
+## # 단어 선택<br />
 같은 단어 잡기 : (W) ctrl + W / (VSC) ctrl + D<br />
 라인복사: shfit + alt + 위 아래 방향키<br />
 라인 갖고 이동: alt + 위아래 방향키
-4. 커서
+## # 커서
 탐색기 포커스(cmd + 0 / ctrl + 0)<br />
 편집기 포커스(cmd + 1/ ctrl +1)<br />
 터미널 포커스 ( ctrl + ```)<br />
 브랜드크럼 포커스 (cmd +shift +.)
-5. 레벨링(leveling): ctrl + 1 -7
-6. 화면<br />
+## # 레벨링(leveling): ctrl + 1 -7
+## # 화면<br />
 전체 닫기<br />
 하나빼고 닫기<br />
 나누기 :  ctrl + alt + 방향키<br />
@@ -53,12 +53,12 @@ ctrl + shift + 5 : split
 Focus on Open Editors view(화면으로 포커스 이동) : ctrl + K E<br />
 Focus on Breadcrumb: Ctrl +Alt + .<br />
 move tab ctrl + M
-7. 파일<br />
+## # 파일<br />
 File: 자동저장 Toggle Auto Save:(custom) Ctrl +Alt + S
-8. 하단 패널<br />
+## # 하단 패널<br />
 toggle : ctrl + J<br />
 size max toggle: (custom): ctrl + alt + shift + J
-9. 생성하기<br />
+## # 생성하기<br />
 (custom)new file: alt + insert<br />
 (custom)new folder: shift+ alt + insert
 
