@@ -7,7 +7,7 @@ Krystal's Dev note
 4. REPEAT THE ABOVE STEPS
 
 
-##usage
+## usage
 hexo new "파일이름"
 
 hexo clean
