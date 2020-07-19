@@ -58,11 +58,11 @@ ctrl + shift + 5 : split
 나누기 :  ctrl + alt + 방향키<br />
 이동하기: alt + 방향키<br />
 Focus on Open Editors view(화면으로 포커스 이동) : ctrl + K E<br />
-Focus on Breadcrumb: Ctrl +Alt + .<br />
+Focus on Breadcrumb: ctrl +alt + .<br />
 move tab ctrl + M
 
 ## # 파일<br />
-File: 자동저장 Toggle Auto Save:(custom) Ctrl +Alt + S
+File: 자동저장 Toggle Auto Save:(custom) ctrl +alt + S
 
 ## # 하단 패널<br />
 toggle : ctrl + J<br />
