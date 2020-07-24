@@ -2,7 +2,6 @@
 title: 'SERIES:USE VSCODE FIN'
 date: 2020-07-18 19:37:14
 tags:
-    - tool
     - vscode
 ---
 

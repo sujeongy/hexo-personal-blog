@@ -2,7 +2,6 @@
 title: 'SERIES:USE VSCODE02'
 date: 2020-06-26 22:12:36
 tags:
-    - tool
     - vscode
 ---
 
