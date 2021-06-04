@@ -11,7 +11,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://krystaly.github.io/
+url: https://sujeongy.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -27,15 +27,15 @@ keyword: javascript
 # SNS settings
 #weibo_username:     3286578617
 #zhihu_username:     ai-er-lan-xue-da
-github_username:    KrystalY
+github_username: sujeongy
 #twitter_username:   iconie_alloy
-facebook_username:  sujeong.yoo.94
+facebook_username: sujeong.yoo.94
 #linkedin_username:  小涛-聂-80964aba
 
 # Build settings
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 
-sidebar-avatar: img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Friends
 #friends: [
@@ -59,8 +59,8 @@ sidebar-avatar: img/avatar.png      # use absolute URL, seeing it's used in both
 #  repo: hexo-aircloud-blog
 
 comment:
-   type: disqus
-   script: 'https://krystals-dev-blog.disqus.com/embed.js'
+  type: disqus
+  script: "https://krystals-dev-blog.disqus.com/embed.js"
 
 # temporary suspension
 #donate:
@@ -127,7 +127,6 @@ theme: aircloud
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-  repo: https://github.com/KrystalY/KrystalY.github.io
+  type: "git"
+  repo: https://github.com/sujeongy/sujeongy.github.io
   branch: master
-
