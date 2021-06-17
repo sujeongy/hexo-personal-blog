@@ -129,4 +129,4 @@ theme: aircloud
 deploy:
   type: "git"
   repo: https://github.com/sujeongy/sujeongy.github.io
-  branch: release
+  branch: master
